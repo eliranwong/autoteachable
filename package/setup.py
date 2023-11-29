@@ -22,9 +22,9 @@ with open(os.path.join(package, "requirements.txt"), "r") as fileObj:
 # https://packaging.python.org/en/latest/guides/distributing-packages-using-setuptools/
 setup(
     name=package,
-    version="0.2",
+    version="0.3",
     python_requires=">=3.8",
-    description="A simple data teachable chat, built on AutoGen framework",
+    description="A simple data teachable chat, built on AutoGen framework. An integrated tool, developed in LetMeDoIt AI project.",
     long_description=long_description,
     author="Eliran Wong",
     author_email="support@letmedoit.ai",
@@ -41,7 +41,7 @@ setup(
             f"{package}=autoteachable.autoteachable:main",
         ],
     },
-    keywords="autogen teachable gpt openai",
+    keywords="ai autogen teachable gpt openai",
     url="https://letmedoit.ai",
     project_urls={
         "Source": "https://github.com/eliranwong/autoteachable",
